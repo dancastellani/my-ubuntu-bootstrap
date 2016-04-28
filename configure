@@ -1,2 +1,11 @@
 sudo apt-get install -y vim tree htop
 
+########### Install and config pyCharm
+install_dir = '/tmp/pycharm'
+mkdir = $install_dir
+cd $install_dir
+wget https://download.jetbrains.com/python/pycharm-professional-2016.1.2.tar.gz
+tar -zxvf pycharm-professional-2016.1.2.tar.gz
+cd ppycharm-professional-2016.1.2
+chmod +x bin/pycharm.sh
+bash bin/pycharm.sh

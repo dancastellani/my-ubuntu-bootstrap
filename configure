@@ -1,4 +1,4 @@
-sudo apt-get install -y vim tree htop
+sudo apt-get install -y vim tree htop python2.7
 
 ########### Install and config pyCharm
 install_dir = '/tmp/pycharm'

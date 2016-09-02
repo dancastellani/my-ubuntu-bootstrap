@@ -11,3 +11,9 @@ tar -szxvf pycharm-professional-2016.1.2.tar.gz -C ${install_dir}
 rm pycharm-professional-2016.1.2.tar.gz
 chmod +x ${install_dir}/pycharm-2016.1.2/bin/pycharm.sh 
 bash ${install_dir}/pycharm-2016.1.2/bin/pycharm.sh
+
+## Install java
+sudo apt-get install -y default-jdk
+
+## Install Skype
+sudo apt-get install -y skype
